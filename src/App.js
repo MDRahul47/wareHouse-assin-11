@@ -6,7 +6,9 @@ import Login from './Components/Login/Login';
 import { Route, Routes } from 'react-router-dom';
 import Home from './Components/Home/Home';
 import Singup from './Components/SingUp/Singup';
-import About from './Components/About/About';
+import Stock from './Components/Stock/Stock';
+import Booking from './Components/Booking/Booking';
+import Blog from './Components/Blog/Blog';
 
 
 
@@ -19,7 +21,9 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/singup" element={<Singup />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/stock" element={<Stock />} />
+        <Route path="/booking" element={<Booking />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
     <Footer></Footer>
     </div>
