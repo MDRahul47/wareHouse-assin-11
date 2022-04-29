@@ -23,7 +23,7 @@ function App() {
         <Route path="/singup" element={<Singup />} />
         <Route path="/stock" element={<Stock />} />
         <Route path="/booking" element={<Booking />} />
-        <Route path="/blog" element={<Blog />} />
+        <Route path="/blogs" element={<Blog />} />
       </Routes>
     <Footer></Footer>
     </div>
