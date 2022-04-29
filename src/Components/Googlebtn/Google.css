@@ -1,0 +1,38 @@
+.btn{
+    border: none;
+    padding: 12px 19px;
+    font-weight: 700;
+    color: white;
+    background-color: #613DC1;
+    border-radius: 12px;
+    margin-top: 10px;
+    width: 45%;
+    transition: all 0.3s linear;
+    box-shadow:  15px 15px 10px #a1a1a1,
+                 -15px -15px 10px #ffffff;
+}
+
+.btn:hover{
+    background-color: #B6CBFA;
+    color: black;
+}
+
+
+.btn-y{
+    border: none;
+    padding: 12px 19px;
+    font-weight: 700;
+    color: white;
+    background-color: #613DC1;
+    border-radius: 12px;
+    margin-top: 30px;
+    width: 45%;
+    transition: all 0.3s linear;
+    box-shadow:  15px 15px 10px #a1a1a1,
+                 -15px -15px 10px #ffffff;
+}
+
+.btn-y:hover{
+    background-color: #B6CBFA;
+    color: black;
+}

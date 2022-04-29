@@ -1,0 +1,45 @@
+
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    text-align: center;
+    border-radius: 31px;
+
+}
+.singup{
+    color: black;
+}
+.all{
+    width: 900px;
+    margin: 40px auto;
+}
+.text{
+    margin-left: 20px;
+    
+}
+.ima{
+    background-color: rgb(182, 203, 250);
+    border-radius: 20px;
+    
+}
+.photooo{
+    width: 400px;
+    margin-top: 80px;
+    margin-right: 40px;
+    margin-left: -4%;
+}
+
+
+
+input{
+    border: none;
+    border-bottom: 1px solid lightslategray;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.forget-msg{
+    margin: 30px 0px;
+}
