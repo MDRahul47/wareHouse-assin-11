@@ -16,21 +16,15 @@ const Home = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img src={banne} className="d-block w-100" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-             
-            </div>
+            
           </div>
           <div className="carousel-item">
             <img src={banner} className="d-block w-100" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-             
-            </div>
+            
           </div>
           <div className="carousel-item">
             <img src={banni} className="d-block w-100" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-             
-            </div>
+           
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">

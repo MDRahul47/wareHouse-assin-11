@@ -1,19 +1,20 @@
-.main{
+.mainia{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
     text-align: center;
     border-radius: 31px;
-
+    overflow-x: hidden;
+    height: 650px;
 }
 .singup{
     color:rgb(59, 119, 249) ;
 }
-.all{
+.alled{
     width: 900px;
     margin: 40px auto;
 }
-.text{
+.texted{
     margin-left: 20px;
     
 }
@@ -27,4 +28,23 @@
     margin-top: 80px;
     margin-right: 40px;
     margin-left: -4%;
+}
+
+@media only screen and (max-width: 600px) {
+    .alled{
+        width: auto;
+    }
+    .mainia{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        height: 1100px;
+    }
+    .ima{
+        width: 98%;
+    }
+    .texted{
+        margin-top: 20px;
+        margin-right:30px;
+
+    }
 }

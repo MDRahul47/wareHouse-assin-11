@@ -8,14 +8,13 @@ import { Link } from 'react-router-dom';
 
 const Login = () => {
     return (
-        <div className='all'>
-            <div className="main">
+    <div className='all'>
 
-            <div className="ima">
+
+        <div className="main">
+            <div className="imag">
                 <img className='photooo' src={photo} alt="" />
             </div>
-
-
             <div className="text">
             <form>
                 <img className='w-25' src={user} alt="" /> <br />
@@ -25,8 +24,10 @@ const Login = () => {
              <Google></Google>
             </form>
             </div>
-            </div>
         </div>
+
+
+    </div>
     );
 };
 

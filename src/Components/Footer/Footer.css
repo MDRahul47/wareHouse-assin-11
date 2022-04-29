@@ -10,13 +10,12 @@ li{
     list-style: none;
 
 }
-.mainia{
+.mainiaa{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin-left: 10%;
     margin-bottom: 20px;
     padding-top: 50px;
-    
 }
 a{
     text-decoration: none;
@@ -29,3 +28,31 @@ a{
     padding-top: 30px ;
     text-align: center;   
 }
+
+
+@media only screen and (max-width: 600px) {
+    .mainiaa{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 10px auto;
+        padding-top: 50px;
+        
+    }
+    .buttom{
+        height: 600px;
+    }
+    .contract{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .product{
+        text-align: center;
+        margin-bottom: 30px;
+
+    }
+    .about{
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+  }

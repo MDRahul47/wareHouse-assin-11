@@ -7,15 +7,15 @@ import { Link } from 'react-router-dom';
 
 const Singup = () => {
     return (
-        <div className='all'>
-            <div className="main">
+        <div className='alled'>
+            <div className="mainia">
 
             <div className="ima">
                 <img className='photooo' src={imag} alt="" />
             </div>
 
 
-            <div className="text">
+            <div className="texted">
             <form>
                 <img className='w-25' src={user} alt="" /> <br />
                 <input type="text" placeholder='Name' required /> <br />
