@@ -21,7 +21,7 @@ const Singup = () => {
                 <input type="text" placeholder='Name' required /> <br />
                 <input type="text" placeholder='Email' required /> <br />
                 <input type="password" placeholder='Password' required /> <br />
-                <p className='forget-msg'><Link className='singup' to='/login'>Login</Link></p>
+                <p className='forget-msg'>Already have an account ?<Link className='singup' to='/login'> Login</Link></p>
              <Google></Google>
             </form>
             </div>
