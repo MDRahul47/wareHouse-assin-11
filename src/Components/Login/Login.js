@@ -3,12 +3,14 @@ import './Login.css';
 import photo from './img/full.png';
 import user from './img/profile.png';
 import Google from '../Googlebtn/Google';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { sendPasswordResetEmail, signInWithEmailAndPassword } from 'firebase/auth';
 import auth from '../../firebase.init';
 
 
 const Login = () => {
+    // const location = useLocation();
+    // const navigate = useNavigate();
     const [email, setEmail] = useState('');
     const [password, setpassword] = useState('');
     const [error, setError] = useState('');
@@ -44,6 +46,8 @@ const Login = () => {
                 console.log("email sent");
             })
         }
+
+
 
     return (
     <div className='all'>

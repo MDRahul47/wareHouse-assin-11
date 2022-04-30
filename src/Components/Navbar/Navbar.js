@@ -1,7 +1,15 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { useAuthState } from "react-firebase-hooks/auth";
 import "./Navbar.css";
+import auth from "../../firebase.init";
+import { signOut } from "firebase/auth";
 const Navbar = () => {
+    const [user] = useAuthState(auth);
+
+    const handleSignout = () => {
+        signOut(auth)
+    }
     // const [user, loading, error] = useAuthState(auth);
     const [isOpen, setIsOpen] = useState(false);
     return (
@@ -12,13 +20,15 @@ const Navbar = () => {
                 <Link to="/booking">Booking</Link>
                 <Link to="/stock">Stock</Link>
                 <Link to="/blogs">Blogs</Link>
-                <Link to="/login">Login</Link>
-                 <span className="navbar-text">
-       {/* {
+               
+                
+                 {
 
-         user ? <span> {user.displayName}  <button className='btn btn-info' onClick={()=>signOut(auth)}>Sing out</button> </span> : "USER"
-       } */}
-      </span>
+user ? <a className="logout" onClick={handleSignout}>Sign-out</a> : <Link className="logout" to='/login'>Login</Link>
+
+
+}
+      
             </div>
             <div
                 className={`nav-toggle ${isOpen && "open"}`}

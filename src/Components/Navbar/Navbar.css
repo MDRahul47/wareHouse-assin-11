@@ -1,3 +1,19 @@
+/* 
+/* .loginName{
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+} */ */
+
+
+.logout{
+    
+    font-weight: 700;
+    color: white;
+}
+
+
+
 .Navbar {
     height: 60px;
     display: flex;

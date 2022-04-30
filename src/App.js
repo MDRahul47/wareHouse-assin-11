@@ -9,6 +9,7 @@ import Singup from './Components/SingUp/Singup';
 import Stock from './Components/Stock/Stock';
 import Booking from './Components/Booking/Booking';
 import Blog from './Components/Blog/Blog';
+import RequerAuth from './Components/RequerAuth/RequerAuth';
 
 
 
@@ -21,8 +22,16 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/singup" element={<Singup />} />
-        <Route path="/stock" element={<Stock />} />
-        <Route path="/booking" element={<Booking />} />
+        <Route path="/stock" element={
+          <RequerAuth>
+            <Stock />
+          </RequerAuth>
+        } />
+        <Route path="/booking" element={
+          <RequerAuth>
+            <Booking />
+          </RequerAuth>
+        } />
         <Route path="/blogs" element={<Blog />} />
       </Routes>
     <Footer></Footer>
