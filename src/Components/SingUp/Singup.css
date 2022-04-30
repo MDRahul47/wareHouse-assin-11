@@ -29,6 +29,24 @@
     margin-right: 40px;
     margin-left: -4%;
 }
+.submite{
+    border: none;
+    padding: 12px 19px;
+    font-weight: 700;
+    color: white;
+    background-color: #613DC1;
+    border-radius: 12px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 45%;
+    transition: all 0.3s linear;
+    box-shadow:  15px 15px 10px #a1a1a1,
+                 -15px -15px 10px #ffffff;
+}
+.submite:hover{
+    background-color: #B6CBFA;
+    color: black;
+}
 
 @media only screen and (max-width: 600px) {
     .alled{

@@ -7,7 +7,7 @@
     text-align: center;
     border-radius: 31px;
     overflow-x: hidden;
-    height: 600px;
+    height: 620px;
 }
 .singup{
     color: black;
@@ -43,6 +43,10 @@ input{
 }
 .forget-msg{
     margin: 30px 0px;
+}
+.forget{
+    border: none;
+    font-size: 20px;
 }
 
 @media only screen and (max-width: 600px) {
