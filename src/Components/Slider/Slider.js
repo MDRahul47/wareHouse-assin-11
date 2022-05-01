@@ -18,10 +18,11 @@ export default class AutoPlay extends Component {
       autoplaySpeed: 2000,
       cssEase: "linear"
     };
+    
     return (
-      <div>
-        <h2 className="text-center mt-5 text-danger"> Top Collection </h2>
-        <Slider className="text-center mt-4 " {...settings}>
+      <div className="dp">
+        <h2 className="text-center  text-danger"> Top Collection </h2>
+        <Slider className="text-center  " {...settings}>
           <div>
           <img className="pho" src="https://media.zigcdn.com/media/model/2020/Sep/ghost-3_360x240.jpg" alt="" />
           <h3>Rolls Royce Ghost</h3>

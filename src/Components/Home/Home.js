@@ -3,13 +3,13 @@ import './Home.css';
 import banne from './banner-img/one.jpg';
 import banner from './banner-img/three.jpg';
 import banni from './banner-img/four.jpg';
-import Responsive from '../Slider/Slider';
 import AutoPlay from '../Slider/Slider';
+import Cart from '../Cart/Cart';
 
 const Home = () => {
   return (
-    <div>
-      <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+    <div className=''>
+      <div id="carouselExampleCaptions" className="carousel slide mb-5  " data-bs-ride="carousel">
         <div className="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -38,6 +38,7 @@ const Home = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+      <Cart></Cart>
       <AutoPlay></AutoPlay>
     </div>
     

@@ -72,14 +72,15 @@
     }
 
     .Navbar>.nav-items {
+        padding-top: 15px;
         position: absolute;
-        top: 250px;
+        top: 180px;
         display: flex;
         flex-direction: column;
         background: #201637;
         left: 0;
         width: 100%;
-        height: 100%;
+        height: 40%;
         transform: translateX(-100%);
         transition: all .45s;
         align-items: center;
