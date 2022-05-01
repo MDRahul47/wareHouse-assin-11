@@ -1,0 +1,11 @@
+.pho{
+
+    height: 250px;
+    width: 400px;
+}
+.line{
+    height: 2px;
+    width: 89px;
+    background-color: black;
+    margin: 6px auto;
+}

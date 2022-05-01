@@ -3,6 +3,8 @@ import './Home.css';
 import banne from './banner-img/one.jpg';
 import banner from './banner-img/three.jpg';
 import banni from './banner-img/four.jpg';
+import Responsive from '../Slider/Slider';
+import AutoPlay from '../Slider/Slider';
 
 const Home = () => {
   return (
@@ -36,7 +38,9 @@ const Home = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+      <AutoPlay></AutoPlay>
     </div>
+    
   );
 };
 
