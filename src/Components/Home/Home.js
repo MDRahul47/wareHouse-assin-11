@@ -4,7 +4,8 @@ import banne from './banner-img/one.jpg';
 import banner from './banner-img/three.jpg';
 import banni from './banner-img/four.jpg';
 import AutoPlay from '../Slider/Slider';
-import Cart from '../Cart/Cart';
+import Titlecar from '../Titlecar/Titlecar';
+import Stock from '../Stock/Stock';
 
 const Home = () => {
   return (
@@ -38,7 +39,9 @@ const Home = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-      <Cart></Cart>
+      <Titlecar></Titlecar>
+      <h2 className='text-center title'>Our Top Cars</h2>
+      <Stock></Stock>
       <AutoPlay></AutoPlay>
     </div>
     

@@ -1,0 +1,61 @@
+.photo {
+    height: 230px;
+    width: 370px;
+    margin: 0px auto;
+    
+}
+.discrip{
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.card{
+    height: 600px;
+}
+.edditd{
+    border-radius: 15px;
+    width: auto;
+    overflow-x: hidden;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+box-shadow:  6px 6px 17px #7d7d7daf,
+             -6px -6px 27px #ffffff; 
+             position: relative;
+    
+}
+
+.impo {
+    border-radius: 50px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow: 30px 30px 44px #898989,
+        -30px -30px 44px #ffffff;
+}
+
+.btn-g{
+    position: absolute;
+    text-align: center;
+    border: none;
+    padding: 12px 25px;
+    font-weight: 700;
+    color: white;
+    background-color: #613DC1;
+    margin-top: 10px;
+    width: 65%;
+    transition: all 0.3s linear;
+    position: absolute;
+    bottom: 0;
+   border-radius: 10px;
+   
+   
+   
+}
+
+@media only screen and (max-width: 600px) {
+    .photo{
+        height: 230px;
+        width: 300px;
+        margin: 5px auto;
+        border-radius: 12px;
+    }
+    .card{
+        height: 600px;
+    }
+}

@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
-import './Stock.css';
+import './Inventory.css';
 
 
-const Stock = () => {
+const Inventory = () => {
     const [users, setUsers] = useState([]);
     useEffect(() => {
         fetch('fakedata.json')
@@ -11,14 +11,14 @@ const Stock = () => {
             .then(data => setUsers(data))
     }, [])
     return (
-        <div className="container">
-
-       
+       <div className="container">
+            
+       <h2 className='text-center text-danger mt-5'>Our Colloction</h2>
         <div className="carts">
             
 
             {
-                users?.slice(0, 6).map(user => <Cart
+                users.map(user => <Cart
                     kay={user.id}
                     user={user}
 
@@ -29,4 +29,4 @@ const Stock = () => {
     );
 };
 
-export default Stock;
+export default Inventory;

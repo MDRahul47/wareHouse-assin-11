@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "name": "BMW 2 SERIES SEDAN",
+        "img": "https://imageio.forbes.com/specials-images/imageserve/6109bb993e631ff5c9194ad6/2022-BMW-2-Series/960x0.jpg?fit=bounds&format=jpg&width=960",
+        "price": "75 Lak",
+        "dis":"It is available in 4 variants, 2 engine options that are BS6 compliant and a single Automatic transmission.",
+	"quantity": 12
+    },
+    {
+        "id": 2,
+        "name": "BMW 7 SERIES SEDAN",
+        "img": "https://www.autosbangla.com/images/bmw/bmw-7-series-sedan-img1.jpg",
+        "price": "2.56 crore",
+        "dis":" It traditionally introduces technologies and exterior design themes before other models in BMW's lineup",
+	"quantity": 8
+    },
+    {
+        "id": 3,
+        "name": "MERCEDES-BENZ E CLASS",
+        "img": "https://www.ccarprice.com/products/Mercedes-Benz-E-Class-M256-2021.jpg",
+        "price": "2.3 crore",
+        "dis":" Produced since 1953, the E-Class falls midrange in the Mercedes line-up, and has been marketed worldwide across five generations.",
+	"quantity": 6	
+    },
+    {
+        "id": 4,
+        "name": "MERCEDES-BENZ CLA",
+        "img": "https://www.la.mercedes-benz.com/en/passengercars/mercedes-benz-cars/models/cla/coupe-c118/design/design-multimedia/_jcr_content/mediabox/elements/mediaboxelement/asset.MQ6.0.20210812203344.jpeg ",
+        "price":  " 1.98 Lak",
+        "dis":"The performance of the CLA Coupé puts you in the fast lane. Its muscular shoulders and broad rear turn heads. Customise yours now. Simple & Rapid Charging.",
+	"quantity": 5
+    },
+    {
+        "id": 5,
+        "name": "AUDI Q8",
+        "img": "https://i.ytimg.com/vi/dQvoBfNoL20/maxresdefault.jpg",
+        "price": " 80 Lak",
+        "dis":"Audi provides every Q8 with a turbocharged 3.0-liter V-6 that makes 335 horsepower and 369 pound-feet of torque.",
+	"quantity": 17
+    },
+    {
+        "id": 6,
+        "name": "AUDI A8 L",
+        "img": "https://img.drivemag.net/media/default/0001/86/audi-a8-l-front-9254-default-large.jpeg",
+        "price":  " 1 crore",
+        "dis":" it comes loaded to the gills with all the bells and whistles. Sure, Audi could have offered more powertrain options, especially a diesel one,",
+	"quantity":7
+    },
+    {
+        "id": 7,
+        "name": "AUDI A6",
+        "img": "https://cdn.motor1.com/images/mgl/qzoWZ/s1/2020-audi-a6-sedan.jpg",
+        "price":  " 1.8 crore",
+        "dis":"The Audi A6 is an executive car made by the German automaker Audi. Now in its fifth generation,",
+	   "quantity":10
+    },
+    {
+        "id": 8,
+        "name": "Rolls Royce UPhantom",
+        "img": "https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2019/07/2018-rolls-royce-phantom-first-drive.jpg?q=50&fit=crop&w=750&dpr=1.5",
+        "price": "10 crore",
+        "dis":" The Rolls-Royce Phantom is a full-sized luxury saloon manufactured by Rolls-Royce Motor Cars.",
+	    "quantity":1
+    },
+    {
+        "id": 9,
+        "name": "Rolls Royce Ghost",
+        "img": "https://www.ccarprice.com/products/Rolls-Royce-Ghost-Sedan-2021.jpg",
+        "price":  "12crore",
+        "dis":"The Rolls-Royce Ghost is a full-sized luxury car manufactured by Rolls-Royce Motor Cars. The Ghost nameplate, named in honour of the Silver Ghost, a car first produced in 1906,",
+	    "quantity":6
+    },
+    {
+        "id": 10,
+        "name": "Phantom Convertible Coupe",
+        "img": "https://cdn.motor1.com/images/mgl/QwnYB/s1/rolls-royce-phantom-drophead-coupe.jpg",
+        "price":" 43 LAK",
+        "dis":"The Rolls-Royce Phantom Drophead Coupé is a luxury grand tourer manufactured by Rolls-Royce that debuted at the 2007 North American International Auto Show ...",
+	"quantity":12
+    },
+    {
+        "id": 11,
+        "name": "Silver Shadow",
+        "img": "https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2019/07/1967_rolls_royce_silver_shadow_15536113166724221e9d363e2fe292BCA3F-42B4-4A1B-9BB7-5F530F83E0EE-e1553889861320-940x627.jpeg?q=50&fit=crop&w=750&dpr=1.5",
+        "price": " 79 LAK",
+        "dis":"The Rolls-Royce Silver Shadow is a full-sized luxury car produced by British automaker Rolls-Royce in various forms from 1965 to 1980. ",
+	"quantity":3
+	
+    },
+    {
+        "id": 12,
+        "name": "Silver Wraith",
+        "img": "https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2019/07/1947-rolls-royce-silver-w.jpg?q=50&fit=crop&w=750&dpr=1.5",
+        "price": "5 crore",
+        "dis":"The Silver Wraith, launched in 1946, was an evolution of the pre-war Wraith and was offered in the traditional chassis form ready for the fitting of Bespoke coachwork. ",
+	"quantity":5
+    }
+]

@@ -1,10 +1,23 @@
 import React from 'react';
+import './Cart.css';
+import { Link } from 'react-router-dom';
 
-const Cart = () => {
+const Cart = ({ user }) => {
+    const { name, price, img, dis, quantity } = user;
+
     return (
-        <div className='container mt-5 mb-5'>
-            <h2 className='text-center mt-5 mb-5'>Lorem, ipsum.</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sed, qui aperiam recusandae quidem modi eveniet ad nesciunt minus. Suscipit temporibus pariatur explicabo quasi. Quaerat, voluptate? Itaque nostrum quisquam pariatur voluptatum cupiditate sint. Odit maxime voluptatibus numquam omnis! Quis perspiciatis suscipit exercitationem. Quas sapiente voluptatem rem vel eum, ullam temporibus voluptate! Ex, reprehenderit doloribus. Architecto at hic dolores quo cum vitae mollitia repudiandae placeat magnam aliquid modi beatae, et pariatur ullam excepturi voluptas sit, possimus sequi ipsum saepe minima, sunt reiciendis molestiae. Ad rerum vero aspernatur officiis dolore in aliquid ut voluptatem quaerat adipisci? Sint accusantium dolorum repellendus corporis amet.</p>
+        <div class="card-group edditd ">
+            <div class="card shadow rounded card">
+                <img src={img} class="card-img-top photo" alt="..." />
+                <div class="card-body">
+                    <h3 class="card-title">Place Name: {name}</h3>
+                    <h4 class="card-text">Price: {price}</h4>
+                    <h3 class="card-text">Quantity: {quantity}</h3>
+                    <p className='discrip'>{dis}</p>
+                    <Link to='/checkout'> <button className='ms-5 btn-g'>Booking</button></Link>
+                </div>
+            </div>
+
         </div>
     );
 };

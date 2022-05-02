@@ -1,0 +1,14 @@
+.carts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 50px;
+   margin: 70px 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .carts {
+        grid-template-columns: 1fr;
+        
+    }
+}
