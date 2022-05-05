@@ -20,7 +20,7 @@ const Inventory = () => {
 
             {
                 users.map(user => <Cart
-                    kay={user._id}
+                    key={user._id}
                     user={user}
 
                 ></Cart>)

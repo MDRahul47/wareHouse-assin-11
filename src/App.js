@@ -9,9 +9,10 @@ import Singup from './Components/SingUp/Singup';
 import Blog from './Components/Blog/Blog';
 import RequerAuth from './Components/RequerAuth/RequerAuth';
 import Inventory from './Components/Inventory/Inventory';
-import Manageinventory from './Components/Manageinventory/Manageinventory';
 import AddIteams from './Components/AddIteams/AddIteams';
 import MyIteams from './Components/MyIteams/MyIteams';
+import NotFound from './Components/NotFound/NotFound';
+import UpdateCart from './Components/UpdateCart/UpdateCart';
 
 
 
@@ -21,6 +22,8 @@ function App() {
      <Navbar></Navbar>
      <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/updateCart:id" element={<UpdateCart />} />
+        <Route path="*" element={<NotFound></NotFound>}></Route>
         <Route path="/home" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/singup" element={<Singup />} />
@@ -39,11 +42,7 @@ function App() {
             <MyIteams />
           </RequerAuth>
         } />
-        <Route path="/manageinventory" element={
-          <RequerAuth>
-            <Manageinventory />
-          </RequerAuth>
-        } />
+       
         <Route path="/blogs" element={<Blog />} />
       </Routes>
     <Footer></Footer>

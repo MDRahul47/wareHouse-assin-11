@@ -23,6 +23,7 @@ const AddIteams = () => {
 
     return (
         <div className='container'>
+            <h3 className='text-center text-danger mt-5 mb-5'>Your iteam Well be add on inventory Section</h3>
         
    <form className=' text-center' onSubmit={handleSubmit(onSubmit)}>
       <input placeholder='Name'  {...register("name", { required: true, maxLength: 20 })} /> <br />

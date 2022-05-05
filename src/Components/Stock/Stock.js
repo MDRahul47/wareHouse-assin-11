@@ -19,7 +19,7 @@ const Stock = () => {
 
             {
                 users?.slice(0, 6).map(user => <Cart
-                    kay={user._id}
+                    key={user._id}
                     user={user}
 
                 ></Cart>)

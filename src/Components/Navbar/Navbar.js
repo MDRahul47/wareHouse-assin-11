@@ -15,41 +15,39 @@ const Navbar = () => {
     }
 
     return (
-        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-  <div class="container-fluid ">
-    <h2 class="navbar-brand me-5" >Rahul Cars</h2>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light ">
+  <div className="container-fluid ">
+    <h2 className="navbar-brand me-5" >Rahul Cars</h2>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse navbar" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
+    <div className="collapse navbar-collapse navbar" id="navbarNav">
+      <ul className="navbar-nav">
+        <li className="nav-item">
         <Link className="text-black nav-link" to="/home">Home</Link>
         </li>
-        <li class="nav-item">
+        <li className="nav-item">
         <Link className="text-black nav-link" to="/inventory">Inventory</Link>
         </li>
-        <li class="nav-item">
-        <Link className="text-black nav-link" to="/manageinventory">Manage Inventory</Link>
-        </li>
-        <li class="nav-item">
+        
+        <li className="nav-item">
         <Link className="text-black nav-link " to="/blogs">Blogs</Link>
         </li>
         {
           user && <>
-           <li class="nav-item">
+           <li className="nav-item">
         <Link className="text-black nav-link " to="/addIteams">Add Iteams</Link>
         </li>
           </>
         }
         {
           user && <>
-           <li class="nav-item">
+           <li className="nav-item">
            <Link className="text-black nav-link " to="/myIteams">My Iteams</Link>
         </li>
           </>
         }
-        <li class="nav-item">
+        <li className="nav-item">
           
 {
 
