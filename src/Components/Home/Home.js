@@ -44,7 +44,7 @@ const Home = () => {
       <h2 className='text-center title'>Our Top Cars</h2>
       <Stock></Stock>
      <div className="invenbtn container mb-5">
-     <Link to="/inventory" ><button className='btn btn-primary  '>Inventory</button></Link>
+     <Link to="/inventory" ><button className='btn btn-primary'>Inventory</button></Link>
      </div>
       <AutoPlay></AutoPlay>
     </div>

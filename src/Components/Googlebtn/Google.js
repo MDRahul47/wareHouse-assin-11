@@ -21,7 +21,7 @@ const Google = () => {
     }
 
     if (user || user1) {
-        navigate('/booking')
+        navigate('/inventory')
     }
 
     
