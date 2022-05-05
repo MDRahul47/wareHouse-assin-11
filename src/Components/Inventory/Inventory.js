@@ -6,12 +6,13 @@ import './Inventory.css';
 const Inventory = () => {
     const [users, setUsers] = useState([]);
     useEffect(() => {
-        fetch('fakedata.json')
+        fetch('http://localhost:5000/cars')
             .then(res => res.json())
             .then(data => setUsers(data))
     }, [])
     return (
        <div className="container">
+
             
        <h2 className='text-center text-danger mt-5'>Our Colloction</h2>
         <div className="carts">
@@ -19,7 +20,7 @@ const Inventory = () => {
 
             {
                 users.map(user => <Cart
-                    kay={user.id}
+                    kay={user._id}
                     user={user}
 
                 ></Cart>)

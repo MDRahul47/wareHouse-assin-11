@@ -6,6 +6,7 @@ import banni from './banner-img/four.jpg';
 import AutoPlay from '../Slider/Slider';
 import Titlecar from '../Titlecar/Titlecar';
 import Stock from '../Stock/Stock';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -42,6 +43,9 @@ const Home = () => {
       <Titlecar></Titlecar>
       <h2 className='text-center title'>Our Top Cars</h2>
       <Stock></Stock>
+     <div className="invenbtn container mb-5">
+     <Link to="/inventory" ><button className='btn btn-primary  '>Inventory</button></Link>
+     </div>
       <AutoPlay></AutoPlay>
     </div>
     

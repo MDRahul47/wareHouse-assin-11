@@ -6,10 +6,12 @@ import Login from './Components/Login/Login';
 import { Route, Routes } from 'react-router-dom';
 import Home from './Components/Home/Home';
 import Singup from './Components/SingUp/Singup';
-import Booking from './Components/Booking/Booking';
 import Blog from './Components/Blog/Blog';
 import RequerAuth from './Components/RequerAuth/RequerAuth';
 import Inventory from './Components/Inventory/Inventory';
+import Manageinventory from './Components/Manageinventory/Manageinventory';
+import AddIteams from './Components/AddIteams/AddIteams';
+import MyIteams from './Components/MyIteams/MyIteams';
 
 
 
@@ -27,9 +29,19 @@ function App() {
             <Inventory />
           </RequerAuth>
         } />
-        <Route path="/booking" element={
+        <Route path="/addIteams" element={
           <RequerAuth>
-            <Booking />
+            <AddIteams />
+          </RequerAuth>
+        } />
+        <Route path="/myIteams" element={
+          <RequerAuth>
+            <MyIteams />
+          </RequerAuth>
+        } />
+        <Route path="/manageinventory" element={
+          <RequerAuth>
+            <Manageinventory />
           </RequerAuth>
         } />
         <Route path="/blogs" element={<Blog />} />

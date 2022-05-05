@@ -6,7 +6,7 @@ import './Stock.css';
 const Stock = () => {
     const [users, setUsers] = useState([]);
     useEffect(() => {
-        fetch('fakedata.json')
+        fetch('http://localhost:5000/cars')
             .then(res => res.json())
             .then(data => setUsers(data))
     }, [])
@@ -19,12 +19,13 @@ const Stock = () => {
 
             {
                 users?.slice(0, 6).map(user => <Cart
-                    kay={user.id}
+                    kay={user._id}
                     user={user}
 
                 ></Cart>)
             }
         </div>
+        
         </div>
     );
 };

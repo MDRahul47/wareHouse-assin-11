@@ -2,3 +2,10 @@
     margin-top: 40px;
     font-weight: 700;
 }
+
+.invenbtn{
+    margin-bottom: 30px;
+    overflow-x: hidden;
+    height: 100px;
+    text-align: center;
+}

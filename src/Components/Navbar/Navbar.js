@@ -16,7 +16,7 @@ const Navbar = () => {
 
     return (
         <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-  <div class="container-fluid ms-5">
+  <div class="container-fluid ">
     <h2 class="navbar-brand me-5" >Rahul Cars</h2>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -30,11 +30,25 @@ const Navbar = () => {
         <Link className="text-black nav-link" to="/inventory">Inventory</Link>
         </li>
         <li class="nav-item">
-        <Link className="text-black nav-link" to="/booking">Booking</Link>
+        <Link className="text-black nav-link" to="/manageinventory">Manage Inventory</Link>
         </li>
         <li class="nav-item">
         <Link className="text-black nav-link " to="/blogs">Blogs</Link>
         </li>
+        {
+          user && <>
+           <li class="nav-item">
+        <Link className="text-black nav-link " to="/addIteams">Add Iteams</Link>
+        </li>
+          </>
+        }
+        {
+          user && <>
+           <li class="nav-item">
+           <Link className="text-black nav-link " to="/myIteams">My Iteams</Link>
+        </li>
+          </>
+        }
         <li class="nav-item">
           
 {
