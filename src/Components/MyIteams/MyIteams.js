@@ -18,7 +18,9 @@ const MyIteams = () => {
             .then(res=>res.json())
             .then(data=>{
                 console.log(data);
+                
                 const remaining = users.filter(user=>user._id !==id)
+                
                 setUsers(remaining);
             })
 
@@ -33,7 +35,7 @@ const MyIteams = () => {
                     <div className="oneIteam my-3">
                         
                     <h4 >{user.name} 
-                    <Link to={`"/updateCart/${user.id}"`}> <button className='delete'
+                    <Link to={`/updateCart/${user._id}`}> <button className='delete'
                     >Updated</button></Link>
                      <button onClick={()=>handleDelete(user._id)} className='delete'>Delete</button></h4>
                     </div>

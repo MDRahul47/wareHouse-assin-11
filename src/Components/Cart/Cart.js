@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Cart.css';
 
 const Cart = ({ user }) => {
@@ -18,7 +19,7 @@ const Cart = ({ user }) => {
                     <h4 className="card-text">Quantity: {quantity}</h4>
                     <h4 className="card-text">Supplier Name: {supplier}</h4>
                     <p className='discrip mt-3'>{dis}</p>
-                     <button  className='ms-5 btn-g'>Delivered</button>
+                     <Link to='/myIteams'><button  className='ms-5 btn-g'>Delivered</button></Link>
                 </div>
             </div>
 

@@ -17,6 +17,7 @@ const AddIteams = () => {
         .then(res=>res.json())
         .then(result=>{
             console.log(result);
+            alert('user Updated susccessfully');
         })
     
     };

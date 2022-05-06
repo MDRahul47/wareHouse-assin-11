@@ -16,13 +16,16 @@ import UpdateCart from './Components/UpdateCart/UpdateCart';
 
 
 
+
 function App() {
   return (
     <div className="App">
      <Navbar></Navbar>
      <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/updateCart:id" element={<UpdateCart />} />
+       
+
+        <Route path="/updateCart/:id" element={<UpdateCart />} />
         <Route path="*" element={<NotFound></NotFound>}></Route>
         <Route path="/home" element={<Home />} />
         <Route path="/login" element={<Login />} />
