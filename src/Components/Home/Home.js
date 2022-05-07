@@ -7,6 +7,7 @@ import AutoPlay from '../Slider/Slider';
 import Titlecar from '../Titlecar/Titlecar';
 import Stock from '../Stock/Stock';
 import { Link } from 'react-router-dom';
+import Lastsection from '../Lastsection/Lastsection';
 
 const Home = () => {
   return (
@@ -47,6 +48,7 @@ const Home = () => {
      <Link to="/inventory" ><button className='btn btn-primary'>Inventory</button></Link>
      </div>
       <AutoPlay></AutoPlay>
+      <Lastsection></Lastsection>
     </div>
     
   );
