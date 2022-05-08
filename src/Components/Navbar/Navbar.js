@@ -15,35 +15,35 @@ const Navbar = () => {
     }
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light ">
+        <nav className="navbar navbar-expand-lg navbar-light   ">
   <div className="container-fluid ">
-    <h2 className="navbar-brand me-5" >Rahul Cars</h2>
+    <h2 className="navbar-brand text-white me-5" >Rahul Cars</h2>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse navbar" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item">
-        <Link className="text-black nav-link" to="/home">Home</Link>
+        <Link className="text-white nav-link" to="/home">Home</Link>
         </li>
         <li className="nav-item">
-        <Link className="text-black nav-link" to="/inventory">Inventory</Link>
+        <Link className="text-white nav-link" to="/inventory">Inventory</Link>
         </li>
         
         <li className="nav-item">
-        <Link className="text-black nav-link " to="/blogs">Blogs</Link>
+        <Link className="text-white nav-link " to="/blogs">Blogs</Link>
         </li>
         {
           user && <>
            <li className="nav-item">
-        <Link className="text-black nav-link " to="/addIteams">Add Iteams</Link>
+        <Link className="text-white nav-link " to="/addIteams">Add Iteams</Link>
         </li>
           </>
         }
         {
           user && <>
            <li className="nav-item">
-           <Link className="text-black nav-link " to="/myIteams">My Iteams</Link>
+           <Link className="text-white nav-link " to="/myIteams">My Iteams</Link>
         </li>
           </>
         }
@@ -51,7 +51,7 @@ const Navbar = () => {
           
 {
 
-user ? <a className="logout nav-link text-black" onClick={handleSignout}>Sign-out</a> : <Link className="logout nav-link text-black " to='/login'>Login</Link>
+user ? <a className="logout nav-link text-white" onClick={handleSignout}>Sign-out</a> : <Link className="logout nav-link text-white " to='/login'>Login</Link>
 
 
 }

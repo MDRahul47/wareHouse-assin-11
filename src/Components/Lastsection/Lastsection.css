@@ -3,12 +3,13 @@
     text-align: center;
     text-align: justify;
     width: 50%;
-    margin-top: 80px;
+
 }
 
 .img{
     width: 550px;
     height: 350px;
+    border-radius: 20px;
 }
 
 .two{

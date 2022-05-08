@@ -1,5 +1,7 @@
 .navbar{
     justify-content: space-around;
+    background-color: #613DC1;
+    
 }
 .logout{
     cursor: pointer;

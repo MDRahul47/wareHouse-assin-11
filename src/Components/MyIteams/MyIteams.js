@@ -28,16 +28,18 @@ const MyIteams = () => {
 
     }
     return (
-        <div className='container deted  mx-auto'>
+        <div className='container deted   mx-auto'>
 
             {
                 users.map(user=> <div key={user._id}>
-                    <div className="oneIteam my-3">
+                    <div className="oneIteam">
                         
-                    <h4 >{user.name} 
+                   <div className="div">
+                   <h4  className='my-3'>{user.name} 
                     <Link to={`/updateCart/${user._id}`}> <button className='delete'
                     >Updated</button></Link>
                      <button onClick={()=>handleDelete(user._id)} className='delete'>Delete</button></h4>
+                   </div>
                     </div>
                     
              </div>)

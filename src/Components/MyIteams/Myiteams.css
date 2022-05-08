@@ -1,11 +1,15 @@
 .delete{
     border:  none;
     padding: 10px 14px;
-    background-color: rgba(194, 76, 76, 0.744);
+    background-color: rgba(35, 156, 200, 0.801);
     color: white;
     font-weight: 600;
     margin-left: 30px;
     border-radius: 14px;
+    transition: all 0.3s linear;
+}
+.delete:hover{
+    background-color: #613DC1;
 }
 
 .oneIteam{
