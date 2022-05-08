@@ -11,7 +11,7 @@ const MyIteams = () => {
     const handleDelete = id =>{
         const proceed = window.confirm('Are You Sure ?',id)
         if(proceed ){
-                const url = `http://localhost:5000/cars/${id}`;
+                const url = `https://rocky-eyrie-40092.herokuapp.com/cars/${id}`;
             fetch(url,{
                 method : 'DELETE'
             })

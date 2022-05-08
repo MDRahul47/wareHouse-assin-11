@@ -9,7 +9,7 @@ const UpdateCart = () => {
     const {id}= useParams();
     const [user,setuser] =useState({});
     useEffect(()=>{
-        const url = `http://localhost:5000/cars/${id}`;
+        const url = `https://rocky-eyrie-40092.herokuapp.com/cars/${id}`;
         fetch(url)
         .then(res=>res.json())
         .then(data=>setuser(data));
@@ -22,7 +22,7 @@ const UpdateCart = () => {
     // const handleQuantityDecrease = (id)=>{
     //     const decrease = quantity - 1 ; 
     //     const update = {decrease};
-    //     fetch ('http://localhost:5000/cars/${id}',{
+    //     fetch ('https://rocky-eyrie-40092.herokuapp.com/cars/${id}',{
     //         method : "PUT",
     //         heanders : {
     //             "content-type" : "application/json",

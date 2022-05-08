@@ -6,7 +6,7 @@ const AddIteams = () => {
     const onSubmit = data => {
 
         console.log(data);
-        const url = `http://localhost:5000/cars`;
+        const url = `https://rocky-eyrie-40092.herokuapp.com/cars`;
         fetch (url,{
             method: 'POST',
             headers: {
